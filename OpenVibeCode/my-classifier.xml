@@ -1,0 +1,111 @@
+<OpenViBE-Classifier-Box Creator="OpenViBE Designer" CreatorVersion="2.2.0" FormatVersion="4">
+	<Strategy-Identifier class-id="(0x638c2f90, 0xeae10226)">OneVsOne</Strategy-Identifier>
+	<Algorithm-Identifier class-id="(0x2ba17a3c, 0x1bd46d84)">Linear Discrimimant Analysis (LDA)</Algorithm-Identifier>
+	<Stimulations>
+		<Class-Stimulation class-id="0">OVTK_StimulationId_Label_07</Class-Stimulation>
+		<Class-Stimulation class-id="1">OVTK_StimulationId_Label_08</Class-Stimulation>
+		<Class-Stimulation class-id="2">OVTK_StimulationId_Label_01</Class-Stimulation>
+		<Class-Stimulation class-id="3">OVTK_StimulationId_Label_02</Class-Stimulation>
+	</Stimulations>
+	<OpenViBE-Classifier>
+		<OneVsOne>
+			<SubClassifierIdentifier algorithm-id="(0x2ba17a3c, 0x1bd46d84)">Linear Discrimimant Analysis (LDA)</SubClassifierIdentifier>
+			<SubClassifierCount>6</SubClassifierCount>
+			<PairwiseDecision algorithm-id="(0xa111b830, 0x4679bafd)">
+				<PairwiseDecision_Voting/>
+			</PairwiseDecision>
+			<SubClassifiers>
+				<SubClassifier first-class="0" second-class="1">
+					<LDA version="1">
+						<Classes>0 1 </Classes>
+						<Class-config-list>
+							<Class-config>
+								<Weights> 1.812838e-001 -3.337588e-003 4.979280e-002</Weights>
+								<Bias>-3.13806</Bias>
+							</Class-config>
+							<Class-config>
+								<Weights> 1.527508e-001 1.013516e-001 8.123396e-002</Weights>
+								<Bias>-5.66351</Bias>
+							</Class-config>
+						</Class-config-list>
+					</LDA>
+				</SubClassifier>
+				<SubClassifier first-class="0" second-class="2">
+					<LDA version="1">
+						<Classes>0 1 </Classes>
+						<Class-config-list>
+							<Class-config>
+								<Weights> 2.581863e-002 4.294370e-001 -1.589124e-001</Weights>
+								<Bias>-2.47417</Bias>
+							</Class-config>
+							<Class-config>
+								<Weights> -6.263266e-003 8.398660e-002 -4.792965e-002</Weights>
+								<Bias>-0.704514</Bias>
+							</Class-config>
+						</Class-config-list>
+					</LDA>
+				</SubClassifier>
+				<SubClassifier first-class="0" second-class="3">
+					<LDA version="1">
+						<Classes>0 1 </Classes>
+						<Class-config-list>
+							<Class-config>
+								<Weights> -4.889064e-008 2.273855e-006 -3.805562e-007</Weights>
+								<Bias>-0.693157</Bias>
+							</Class-config>
+							<Class-config>
+								<Weights> 1.088366e-004 -1.607927e-004 1.993747e-004</Weights>
+								<Bias>-2.19242</Bias>
+							</Class-config>
+						</Class-config-list>
+					</LDA>
+				</SubClassifier>
+				<SubClassifier first-class="1" second-class="2">
+					<LDA version="1">
+						<Classes>0 1 </Classes>
+						<Class-config-list>
+							<Class-config>
+								<Weights> 3.223047e-002 4.784500e-002 3.855754e-002</Weights>
+								<Bias>-2.5979</Bias>
+							</Class-config>
+							<Class-config>
+								<Weights> 1.135495e-002 -1.529043e-003 -3.146194e-003</Weights>
+								<Bias>-0.695233</Bias>
+							</Class-config>
+						</Class-config-list>
+					</LDA>
+				</SubClassifier>
+				<SubClassifier first-class="1" second-class="3">
+					<LDA version="1">
+						<Classes>0 1 </Classes>
+						<Class-config-list>
+							<Class-config>
+								<Weights> -8.094033e-007 7.521292e-006 -4.597853e-007</Weights>
+								<Bias>-0.693257</Bias>
+							</Class-config>
+							<Class-config>
+								<Weights> 1.083015e-004 -1.569174e-004 1.993768e-004</Weights>
+								<Bias>-2.1934</Bias>
+							</Class-config>
+						</Class-config-list>
+					</LDA>
+				</SubClassifier>
+				<SubClassifier first-class="2" second-class="3">
+					<LDA version="1">
+						<Classes>0 1 </Classes>
+						<Class-config-list>
+							<Class-config>
+								<Weights> -1.331825e-008 1.685825e-007 -2.373820e-008</Weights>
+								<Bias>-0.693147</Bias>
+							</Class-config>
+							<Class-config>
+								<Weights> 1.087779e-004 -1.622403e-004 1.994849e-004</Weights>
+								<Bias>-2.19006</Bias>
+							</Class-config>
+						</Class-config-list>
+					</LDA>
+				</SubClassifier>
+			</SubClassifiers>
+		</OneVsOne>
+	</OpenViBE-Classifier>
+</OpenViBE-Classifier-Box>
