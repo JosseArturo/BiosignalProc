@@ -1,0 +1,56 @@
+<OpenViBE-Classifier-Box Creator="OpenViBE Designer" CreatorVersion="2.2.0" FormatVersion="4">
+	<Strategy-Identifier class-id="(0xd7183fc6, 0xbd74f297)">OneVsAll</Strategy-Identifier>
+	<Algorithm-Identifier class-id="(0x2ba17a3c, 0x1bd46d84)">Linear Discrimimant Analysis (LDA)</Algorithm-Identifier>
+	<Stimulations>
+		<Class-Stimulation class-id="0">OVTK_GDF_Right</Class-Stimulation>
+		<Class-Stimulation class-id="1">OVTK_GDF_Left</Class-Stimulation>
+		<Class-Stimulation class-id="2">OVTK_GDF_Up</Class-Stimulation>
+	</Stimulations>
+	<OpenViBE-Classifier>
+		<OneVsAll>
+			<SubClassifierIdentifier algorithm-id="(0x2ba17a3c, 0x1bd46d84)">Linear Discrimimant Analysis (LDA)</SubClassifierIdentifier>
+			<SubClassifierCount>3</SubClassifierCount>
+			<SubClassifiers>
+				<LDA version="1">
+					<Classes>0 1 </Classes>
+					<Class-config-list>
+						<Class-config>
+							<Weights> 1.405039e+003 8.147320e+001 -1.026085e+003 2.054636e+002 -8.740073e+002 -1.769077e+002 -3.584375e+002 7.592940e+002 1.363660e+003 -1.530321e+003 -7.945698e+001 1.373488e+003</Weights>
+							<Bias>-5230.26</Bias>
+						</Class-config>
+						<Class-config>
+							<Weights> 1.414660e+003 8.709794e+001 -1.066565e+003 2.546987e+002 -8.693573e+002 -1.750162e+002 -3.651949e+002 7.552692e+002 1.354218e+003 -1.542492e+003 -8.269459e+001 1.375211e+003</Weights>
+							<Bias>-5196.52</Bias>
+						</Class-config>
+					</Class-config-list>
+				</LDA>
+				<LDA version="1">
+					<Classes>0 1 </Classes>
+					<Class-config-list>
+						<Class-config>
+							<Weights> 1.435454e+003 8.687477e+001 -1.071133e+003 2.216160e+002 -7.980540e+002 -1.722343e+002 -3.625080e+002 7.267108e+002 1.359882e+003 -1.555444e+003 -8.250167e+001 1.348449e+003</Weights>
+							<Bias>-5171.83</Bias>
+						</Class-config>
+						<Class-config>
+							<Weights> 1.399452e+003 8.439716e+001 -1.044041e+003 2.466225e+002 -9.073340e+002 -1.773529e+002 -3.631596e+002 7.715608e+002 1.356107e+003 -1.529930e+003 -8.117224e+001 1.387730e+003</Weights>
+							<Bias>-5225.66</Bias>
+						</Class-config>
+					</Class-config-list>
+				</LDA>
+				<LDA version="1">
+					<Classes>0 1 </Classes>
+					<Class-config-list>
+						<Class-config>
+							<Weights> 1.393866e+003 8.732112e+001 -1.061996e+003 2.877813e+002 -9.406606e+002 -1.777980e+002 -3.678818e+002 7.838276e+002 1.348554e+003 -1.529539e+003 -8.288751e+001 1.401973e+003</Weights>
+							<Bias>-5223.79</Bias>
+						</Class-config>
+						<Class-config>
+							<Weights> 1.420246e+003 8.417399e+001 -1.048609e+003 2.135398e+002 -8.360306e+002 -1.745710e+002 -3.604727e+002 7.430024e+002 1.361771e+003 -1.542883e+003 -8.097933e+001 1.360969e+003</Weights>
+							<Bias>-5199.74</Bias>
+						</Class-config>
+					</Class-config-list>
+				</LDA>
+			</SubClassifiers>
+		</OneVsAll>
+	</OpenViBE-Classifier>
+</OpenViBE-Classifier-Box>
